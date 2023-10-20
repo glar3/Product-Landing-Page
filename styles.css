@@ -211,3 +211,29 @@ form #submit {
     margin: 0 auto;
   }
 }
+
+@media screen and (max-width: 480px) {
+  .features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-top: 100px;
+  }
+
+  .icons {
+    display: none;
+  }
+
+  .features h2,
+  .features p {
+    text-align: center;
+    margin: 0 40px;
+    padding: 10px;
+  }
+
+  .yt iframe {
+    width: 300px;
+    height: 200px;
+  }
+}
