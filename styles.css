@@ -140,6 +140,10 @@ form #submit {
   text-align: center;
 }
 
+.pricing h3 {
+  line-height: 2;
+}
+
 .pricing input {
   padding: 10px 20px;
   border-radius: 5px;
